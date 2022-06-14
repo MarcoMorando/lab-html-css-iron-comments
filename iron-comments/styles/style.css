@@ -3,9 +3,41 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
 }
 
 #form-container {
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 3px;
+    color: white;
+    justify-content: center;
+    font-weight: 600;
     margin: auto;
+    padding: 20px 50px 20px 20px;
+    width: 250px;
+}
+
+label,input,textarea,button {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input,textarea{
+    border: 1.2px solid rgb(67, 163, 230);
+    width: 95%;
+}
+
+.inline{
+    display: inline;
+    font-style: oblique;
+    margin-bottom: 8px;
+    width: auto;
+}
+
+button{
+    background-color: rgb(67, 163, 230);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
 }
